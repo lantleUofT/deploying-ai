@@ -29,11 +29,11 @@ $ echo "Data Sciences Institute"
 ## Main Points
 
 1. Foundation models are trained on massive datasets via self-supervision; scale (parameters, training tokens, compute) drives capability.
-2. The Transformer architecture — built on self-attention — replaced RNNs and enabled parallelized training at scale.
+2. The Transformer architecture, built on self-attention, replaced RNNs and enabled parallelized training at scale.
 3. Post-training (SFT + preference fine-tuning) aligns foundation models to produce useful, safe, and well-formatted outputs.
 4. Model outputs are probabilistic: temperature, top-k, and top-p sampling control the creativity/consistency trade-off.
 5. Hallucinations and inconsistencies are structural properties of probabilistic models, not simple bugs.
-6. Scaling laws (Chinchilla) show that parameters, training tokens, and compute must be balanced — more parameters alone is not sufficient.
+6. Scaling laws (Chinchilla) show that parameters, training tokens, and compute must be balanced; more parameters alone is not sufficient.
 7. Training data quality and provenance directly determine model capabilities and failure modes.
 
 ---
@@ -849,11 +849,11 @@ Many of the engineering efforts covered in this course exist precisely because w
 ## Main Points
 
 1. Foundation models are trained on massive datasets via self-supervision; scale (parameters, training tokens, compute) drives capability.
-2. The Transformer architecture — built on self-attention — replaced RNNs and enabled parallelized training at scale.
+2. The Transformer architecture, built on self-attention, replaced RNNs and enabled parallelized training at scale.
 3. Post-training (SFT + preference fine-tuning) aligns foundation models to produce useful, safe, and well-formatted outputs.
 4. Model outputs are probabilistic: temperature, top-k, and top-p sampling control the creativity/consistency trade-off.
 5. Hallucinations and inconsistencies are structural properties of probabilistic models, not simple bugs.
-6. Scaling laws (Chinchilla) show that parameters, training tokens, and compute must be balanced — more parameters alone is not sufficient.
+6. Scaling laws (Chinchilla) show that parameters, training tokens, and compute must be balanced; more parameters alone is not sufficient.
 7. Training data quality and provenance directly determine model capabilities and failure modes.
 
 ---
