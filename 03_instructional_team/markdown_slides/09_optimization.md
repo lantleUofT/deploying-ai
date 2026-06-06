@@ -211,6 +211,11 @@ Although foundation models are a recent evolution in the field, the principles o
 2. The AI engineering stack evolves in layers: embedded software → custom API calls → RAG → guardrails → model routing → caching — each layer adds capability and control.
 3. Guardrails operate on both inputs (blocking sensitive data or out-of-scope queries) and outputs (catching empty, malformatted, toxic, or factually inconsistent responses).
 4. Model routers use intent classification to direct queries to the most appropriate model, balancing quality, latency, and cost across a portfolio of models.
+
+---
+
+## Main Points (cont.)
+
 5. Caching — prompt, exact, and semantic — can substantially reduce both latency and cost, especially in applications with long system prompts or repetitive queries.
 6. Business metrics must be mapped to AI metrics; systematic experimentation, prompt tuning, and feedback loops are the levers for iterative improvement.
 7. In-context learning via RAG reduces model staleness by continuously incorporating new information without requiring retraining.
